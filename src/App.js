@@ -1,5 +1,11 @@
+import Row from "./components/Row";
 function App() {
-  return <div className="App">Hello</div>;
+  return (
+    <div className="App">
+      <Row title="Netflix Originals" />
+      <Row title="Trending Now" />
+    </div>
+  );
 }
 
 export default App;
