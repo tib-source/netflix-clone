@@ -5,7 +5,7 @@
   font-weight: 400;
 }
 
-body{ 
+.App{ 
   color: white;
-  background-color: black;
+  background-color: #111;
 }
