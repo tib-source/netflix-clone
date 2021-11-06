@@ -1,0 +1,21 @@
+.row__posters {
+  width: 100%;
+  display : flex;
+  gap: 10px;
+}
+
+.row__poster{
+  width: 100%;
+  max-height: 100px;
+  object-fit: contain;
+  transition: transform 400ms;
+}
+
+.row__poster:hover{
+  transform: scale(1.08); 
+
+}
+
+.row__large{ 
+  max-height: 250px;
+}
